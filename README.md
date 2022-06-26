@@ -1,38 +1,29 @@
-# Python default project
+# Neural Network basics
 
-## Prerequisites
+# prequisites
+This repository uses poetry to manage the dependencies and creates a virtual environment.
+Make sure you have poetry installed.
 
-### Install Homebrew
-install homebrew
+Addtionally pyenv can be used. 
 
-### Install pyenv
+Python-version: 3.10.3
 
-### install prepare: ./husky/prepare
+run `sh install.sh` to create a virtual environment and install all dependencies.
 
-# PythonDefaultProject
-Python Default to use for new Projects
+## overview
 
-pytest: just name file _test.py
-
-
-poetry run python poetry-update.py -> build an npm package
-
-
-
-## Pre Commit
-
-**[General](https://github.com/pre-commit/pre-commit-hooks)**
-Repo: [https://github.com/pre-commit/pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks)
-
-Some out-of-the-box hooks for pre-commit.
+### Neural Network from scratch
+This folders contains a notebook where i implemendet a neural network from scratch.
+I didn't used any libarys such as pytorch or keras to do so.
+In the end, i created a simple two layer neural network to regognize handwritten digits from the famous MNIST dataset.
 
 
+## todos
 
+- [] work through: https://www.simplilearn.com/tutorials/deep-learning-tutorial/neural-network
+- [] work through:
 
-## TODO
-- [ ] add a script that automatically creates the structure needed for the project
-    - The script should be able to init poetry with the standard packages needed for the pre-commit hook
-    - The script should install husky if needed
-    - The script should differentiate between different needs for the project (e.g. notebook, code)
-    - The script should be able to select the pre-commit hook
-- [ ] add dependbot
+## references
+
+## info
+last updated: 2022-06-25
